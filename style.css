@@ -1,0 +1,76 @@
+body {
+  background-color: #020d45;
+  background: linear-gradient(90deg, #8767d6 0%, #efeff1 100%);
+  color: #222;
+  font-style: italic;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  }
+
+  .mobile {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  .temperature-converter {
+    background: #fff;
+    border-radius: 5px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 25px 45px;
+    min-width: 320px;
+    width: 100%;
+    height: auto;
+    box-shadow: -5px -5px 250px 0px rgba(255, 255, 255, 0.02) inset;
+    backdrop-filter: blur(21px);
+  }
+  
+  .title {
+    color: #222;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  label {
+    font-weight: bold;
+  }
+
+  input, select, button {
+    margin: 10px;
+    padding: 5px;
+    font-size: 16px;
+  }
+
+  .result {
+    text-align: center;
+    margin: 20px 0;
+    font-style: italic;
+  }
+  .result-heading {
+    color: #555;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  font{
+    color: red;
+  }
+  .center-box {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    text-align: center;
+    line-height: 200px;
+  }
+
+
+
+  
